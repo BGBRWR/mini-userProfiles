@@ -18,13 +18,13 @@ angular.module('userProfiles')
         "first_name": "oscar",
         "last_name": "bluth",
         "avatar": "http://www-scf.usc.edu/~lewisal/itp104/imgs/oscarb.jpg"
-    }]
+    }];
   this.getUsers = function() {
     return data;
-  }
+  };
   this.toggleFavorite = function(index){
       data[index].isFavorite = !data[index].isFavorite;
-  }
+  };
 
 
-})
+});
